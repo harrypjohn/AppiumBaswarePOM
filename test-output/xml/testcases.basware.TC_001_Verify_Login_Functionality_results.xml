@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32.914">
+  <properties />
+  
+  
+            <testcase name="validateLoginFunctionality" time="32.914" classname="testcases.basware.TC_001_Verify_Login_Functionality" />
+      
+</testsuite>

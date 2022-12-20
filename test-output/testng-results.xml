@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[validateLoginFunctionality method in class testcases.basware.TC_001_Verify_Login_Functionality is not running successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-20T13:25:52 IST" name="Suite" finished-at="2022-12-20T13:26:54 IST" duration-ms="61910">
+    <groups>
+    </groups>
+    <test started-at="2022-12-20T13:25:52 IST" name="Test" finished-at="2022-12-20T13:26:54 IST" duration-ms="61910">
+      <class name="testcases.basware.TC_002_Verify_Search_Items_from_Search_Catalog">
+        <test-method is-config="true" signature="init()[pri:0, instance:testcases.basware.TC_002_Verify_Search_Items_from_Search_Catalog@26a94fa5]" started-at="2022-12-20T13:25:52 IST" name="init" finished-at="2022-12-20T13:25:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="searchItemFromSearch()[pri:1, instance:testcases.basware.TC_002_Verify_Search_Items_from_Search_Catalog@26a94fa5]" started-at="2022-12-20T13:26:26 IST" name="searchItemFromSearch" finished-at="2022-12-20T13:26:54 IST" duration-ms="28042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemFromSearch -->
+      </class> <!-- testcases.basware.TC_002_Verify_Search_Items_from_Search_Catalog -->
+      <class name="testcases.basware.TC_001_Verify_Login_Functionality">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.basware.TC_001_Verify_Login_Functionality@469d003c]" started-at="2022-12-20T13:25:38 IST" name="setUp" finished-at="2022-12-20T13:25:52 IST" duration-ms="14392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="init()[pri:0, instance:testcases.basware.TC_001_Verify_Login_Functionality@469d003c]" started-at="2022-12-20T13:25:52 IST" name="init" finished-at="2022-12-20T13:25:52 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="validateLoginFunctionality(java.lang.String,java.lang.String)[pri:0, instance:testcases.basware.TC_001_Verify_Login_Functionality@469d003c]" started-at="2022-12-20T13:25:52 IST" name="validateLoginFunctionality" data-provider="getData" finished-at="2022-12-20T13:26:25 IST" duration-ms="32914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[T301admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[validateLoginFunctionality method in class testcases.basware.TC_001_Verify_Login_Functionality is not running successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.basware.TC_001_Verify_Login_Functionality@469d003c]" started-at="2022-12-20T13:26:54 IST" name="tearDown" finished-at="2022-12-20T13:26:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.basware.TC_001_Verify_Login_Functionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
